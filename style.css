@@ -1,0 +1,53 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+  align-items: center;
+  font-size: 15px;
+  font-style: italic;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  background-color: hsl(212, 45%, 89%);
+  @media only screen and (min-width: 375px);
+}
+.center-site {
+    background-color: white;
+    width: 80%;
+    max-width: 340px;
+    padding: 20px;
+    border-radius: 15px;
+    
+  
+}
+.attribution {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  text-align: top;
+  font-size: 20px;
+  
+}
+.picture {
+ width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 0.9375em;
+    text-align: center;
+    margin-top: 15px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
+
+.skills {
+  font-size: 12px;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  
+  
+}
